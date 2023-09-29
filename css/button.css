@@ -1,0 +1,30 @@
+.article .parr{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%);
+    width: 100%;
+  }
+  
+.article .parr a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+.article .parr a::after{
+    content: "";
+    background: white;
+      mix-blend-mode: exclusion;
+    width: calc(100% + 20px);
+    height: 0;
+    position: absolute;
+    bottom: -4px;
+    left: -10px;
+      transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  
+.article .parr a:hover::after{
+      height: calc(100% + 8px)
+  }

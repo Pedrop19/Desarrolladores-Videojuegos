@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/bg.gif");
+  background-size: cover;
+	height: 100vh;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(255, 157, 0);
+  cursor:url(../images/puntero.png), auto;  
+}
+
+
+.opc{
+  width: 100vw;
+  height: 31%;
+}
+
+.usos{
+  height: 31%;
+  top: 80%;
+  left: 10%;
+  position: absolute;
+}
+
+.videos{
+  width: 700px;
+  height: 400px;
+  top: 1548px;
+  left: 25%;
+  position: absolute;
+}
+
+
+.search {
+  max-width: 260px;
+  position: relative;
+  padding-left: 38px;
+}
+
+.search input {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  outline: 0;
+  font-size: 16px;
+  display: block;
+  padding: 10px 40px 10px 20px;
+  transition: border .25s linear;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+.search input:focus {
+  border-color: red;
+}
+
+.search i {
+  position: absolute;
+  right: 0.8rem;
+  top: 50%;
+  transform: translatey(-50%);
+  color: rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.videos h1{
+  position: absolute;
+  top: -195px;
+  left: 305px;
+}

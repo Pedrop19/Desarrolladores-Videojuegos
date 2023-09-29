@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/opciones.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/usos.css">
+  <link rel="stylesheet" href="./css/button.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <title>Desarrolladores de Videojuegos</title>
+
+</head>
+
+<body>
+
+  <!-- Navegacion -->
+  <input type="checkbox" id="menu" />
+  <label for="menu" class="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="nav">
+    <ul>
+      <div class="search">
+        <input type="text" placeholder="Search...">
+        <i class="fas fa-search"></i>
+      </div>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#opciones">Opciones Disponibles</a></li>
+      <li><a href="#usos">Usos</a></li>
+      <li><a href="#videos">Videos</a></li>
+    </ul>
+  </nav>
+  <!-- Fin Navegacion -->
+
+  <!-- Opciones Disponibles -->
+  <div class="opc" id="opciones">
+    <table>
+      <caption>OPCIONES</caption>
+      <tbody>
+        <tr>
+          <td data-label="Desarrollador"><a href="https://unity.com/es">Unity</a></td>
+          <td data-label="Aprendizaje">Principiante</td>
+          <td data-label="Lenguajes">C#, UnityScript y Boo.</td>
+          <td data-label="Multiplataforma">Sí</td>
+          <td data-label="Precio">Gratis</td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="Desarrollador"><a href="https://www.unrealengine.com/es-ES">Unreal Engine</a></td>
+          <td data-label="Aprendizaje">Intermedio</td>
+          <td data-label="Lenguajes">C++</td>
+          <td data-label="Multiplataforma">Sí</td>
+          <td data-label="Precio">Gratis</td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="Desarrollador"><a href="https://gamemaker.io/es">GameMaker Studio</a></td>
+          <td data-label="Aprendizaje">Principiante</td>
+          <td data-label="Lenguajes">GameMaker Language</td>
+          <td data-label="Multiplataforma">Sí</td>
+          <td data-label="Precio">Gratis</td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="Desarrollador"><a href="https://www.rpgmakerweb.com/">RPG Maker</a></td>
+          <td data-label="Aprendizaje">Principiante</td>
+          <td data-label="Lenguajes">Ruby o JavaScript</td>
+          <td data-label="Multiplataforma">Sí</td>
+          <td data-label="Precio">Gratis</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- Fin Opciones Disponibles -->
+
+  <!-- Usos -->
+  <div class="usos" id="usos">
+    <h1>USOS</h1>
+    <div class="wrapper">    
+      <div class="news">    
+        <figure class="article">
+          <img src="https://unity.com/sites/default/files/styles/cards_16_9/public/2022-05/unity-games.jpg?itok=r7-VROwX" />
+          <figcaption>
+            <h3>Juegos</h3>    
+            <p>   
+              Descubre por qué más de la mitad de los videojuegos del mundo están hechos con Unity.
+            </p> 
+            <p class="parr"><a href="https://unity.com/es/solutions/game" target="_blank">Conquista el siguiente nivel</a></p>
+          </figcaption>    
+        </figure>   
+        <figure class="article">   
+          <img src="https://unity.com/sites/default/files/styles/cards_16_9/public/2022-05/unity-aec.jpg?itok=rhz4eTEI" />  
+          <figcaption>  
+            <h3>Arquitectura</h3>  
+            <p>  
+              Adelántate a tus competidores con las visualizaciones instantáneas y las actualizaciones sobre la marcha. 
+            </p>
+            <p class="parr"><a href="https://unity.com/es/solutions/architecture-engineering-construction" target="_blank">Visualiza tu proyecto</a></p> 
+          </figcaption>    
+        </figure>
+        <figure class="article">            
+          <img src="https://unity.com/sites/default/files/styles/cards_16_9/public/2022-05/unity-automotive.jpg?itok=z2GUaNSi" />  
+          <figcaption>  
+            <h3>Industria Automotriz</h3>  
+            <p>  
+              Forma parte de la revolución de los diseños con una excelente fidelidad y una impresionante experiencia inmersiva.  
+            </p>
+            <p class="parr"><a href="https://unity.com/es/solutions/automotive-and-transportation" target="_blank">Configura tu producto</a></p>  
+          </figcaption>    
+        </figure>
+        <figure class="article">   
+          <img src="https://unity.com/sites/default/files/styles/cards_16_9/public/2022-05/unity-film.jpg?itok=PWQ4ZekN" />  
+          <figcaption>  
+            <h3>Cine</h3>  
+            <p>  
+              Dale rienda suelta a tu creatividad con efectos impresionantes y procesadores instantáneos. 
+            </p>
+            <p class="parr"><a href="https://unity.com/es/solutions/film-animation-cinematics" target="_blank">Haz realidad tu proyecto</a></p> 
+          </figcaption>    
+        </figure>   
+      </div>   
+    </div>
+  </div>
+  <!-- Fin Usos -->
+
+  <!-- Videos -->
+  <div class="videos" id="videos">
+    <h1>VIDEOS</h1>
+    <div class="b-slider">
+      <div class="b-slider__inner">
+        <input type="radio" name="slide" id="b-slider__switch-1" checked>
+        <label for="b-slider__switch-1"></label>
+        
+        <input type="radio" name="slide" id="b-slider__switch-2">
+        <label for="b-slider__switch-2"></label>
+        
+        <input type="radio" name="slide" id="b-slider__switch-3">
+        <label for="b-slider__switch-3"></label>
+        
+       
+        <div class="b-slider__items">
+          <div class="b-slider__item-1">
+            <iframe width="700" height="393" src="https://www.youtube.com/embed/AJ6Mkx1KEns?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="b-slider__item-2">
+            <iframe width="700" height="393" src="https://www.youtube.com/embed/qC5KtatMcUw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+          <div class="b-slider__item-3">
+            <iframe width="700" height="393" src="https://www.youtube.com/embed/-OX232GwikI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+        </div>
+
+        <label for="b-slider__switch-1"></label>
+        <label for="b-slider__switch-2"></label>
+        <label for="b-slider__switch-3"></label>
+
+      </div>
+    </div>
+  </div>
+  <!-- Fin Videos -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+    <div class="row">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#opciones">Opciones Disponibles</a></li>
+        <li><a href="#usos">Usos</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><p class="pfoot">Pedrop Copyright © 2022 All rights reserved </p></li>
+      </ul>
+    </div>
+    </footer>
+  <!-- Fin Footer -->
+
+</body>
+
+</html>

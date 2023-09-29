@@ -1,0 +1,90 @@
+.card {
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px white;
+    padding: 2em;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 10x;
+    background: black;
+    transition: 1.5s ease;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateY(.5turn);
+}
+
+/* Content */
+.card .content {
+    transform-style: preserve-3d;
+  
+    transition: 1s ease;
+  
+}
+
+.card .back, .card .front {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.card {
+  text-shadow: 0 0 5px black;
+}
+
+.card .back {
+    transform: rotateY(.5turn);
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card p,
+.card h2 {
+    transform: translateZ(100px);
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.card h2 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+.card::before,
+.card::after{
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-size: contain;
+  background: url(https://unity.com/sites/default/files/styles/cards_16_9/public/2022-05/unity-games.jpg?itok=r7-VROwX);
+  transform: rotateY(.5turn) translateZ(1px);
+
+}
+
+.card::before {
+  transform: none;
+  
+  background: url(https://img.freepik.com/free-vector/asian-rice-field-terraces-morning-mountains-landscape-paddy-plantation-cascades-farm-mount-water-channel-with-growing-plants-scenery-meadow-with-green-grass-cartoon-vector-illustration_107791-10452.jpg?w=1380&t=st=1661917467~exp=1661918067~hmac=fcd8e64a15f4900ad755025fb1a92198196dcc22911435ae660d9185203ddfca);
+}       
+
+.uss{
+    left:50px;
+    top:800px;
+    position: absolute;
+    display: flex;
+}
